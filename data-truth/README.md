@@ -5,9 +5,7 @@ European data status
 
 ### Hospitalisations
 
-- Belgium, Cyprus, Czechia, Denmark, Estonia, France, Germany, Greece,
-  Hungary, Iceland, Ireland, Italy, Latvia, Luxembourg, Malta,
-  Netherlands, Slovakia, Slovenia, Spain
+- Czechia, Netherlands
 
 The Hub validates and evaluates hospitalisation forecasts against data
 collated by [Our World in
@@ -63,26 +61,27 @@ cannot take into account the truncation of the data.
 The latest hospitalisation data is plotted below, with the dashed line
 indicating data expecting to be substanially revised.
 
-![Plot of hospitalisations](plots/Hospitalisations.svg)
+<figure>
+<img src="plots/Hospitalisations.svg" alt="Plot of hospitalisations" />
+<figcaption aria-hidden="true">Plot of hospitalisations</figcaption>
+</figure>
 
 ### Cases and deaths
 
 - Cases: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark,
-  Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland,
-  Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta,
-  Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Slovenia,
-  Spain, Sweden
+  Estonia, Greece, Hungary, Iceland, Ireland, Italy, Liechtenstein,
+  Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal,
+  Romania, Slovakia, Slovenia, Sweden
 
-- Deaths: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark,
-  Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland,
-  Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta,
-  Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Slovenia,
-  Spain, Sweden
+- Deaths: Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Greece,
+  Ireland, Italy, Liechtenstein, Lithuania, Malta, Poland, Portugal,
+  Romania, Slovakia, Slovenia, Sweden
 
-- **Data warning!** Recent missing data for cases in: Denmark
+- **Data warning!** Recent missing data for cases in: Croatia, Cyprus,
+  Denmark, Estonia, and Italy
 
-- **Data warning!** Recent missing data for deaths in: Denmark, Iceland,
-  Luxembourg, Netherlands, and Norway
+- **Data warning!** Recent missing data for deaths in: Croatia, Cyprus,
+  Denmark, Estonia, and Italy
 
 We further evaluate forecasts of cases and deaths against data provided
 [ECDC](https://www.ecdc.europa.eu/), which we recommend using as the
